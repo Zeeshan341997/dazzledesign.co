@@ -1,159 +1,3 @@
-
-<!doctype html>
-<html lang="en">
-
-<!-- Mirrored from www.astrosdigital.com/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 14:33:16 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
-<title>Get in Touch with Dazzle Design</title>
-<link rel="sty lesheet" type="text/css" href="../index.html">
-<meta name="description" content="Contact Dazzle Design for innovative web solutions, branding, and digital marketing services. Let's collaborate and transform your digital presence."/>
-<base >
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/%40fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css">
-    <link href="https://unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.scss">
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="../index.html">
-    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap-minify.css">
-    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../assets/slick/slick/slick.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- <link rel="stylesheet" type="text/css" href="path-to-your/loader.css"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/%40fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel%401.8.1/slick/slick.css"/>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery%403.6.0/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel%401.8.1/slick/slick.min.js"></script>
-
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
-<link rel="canonical" href="index.html">
-<meta name="robots" content="index, follow">
-
-</head>
-
- 
-<link rel="stylesheet" type="text/css" href="../assets/inc-css/home.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/style.css.map">
-
-<body class="contact_page">
-
-<!-- header -->
- 
-
-
-<!-- header -->
-<header class="header_wrap">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-2">
-                <div class="logo">
-                    <a href="../index.html"><img id="myImage" src="../assets/images/logo.png" alt=""></a>
-                </div>
-            </div>
-            <div class="col-lg-10">
-                <nav class="navbar navbar-expand-lg navbar-light p-0">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav align-items-center animation_effect">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="../index.html"><i class="fa-solid fa-house"></i></a>
-                            </li>                            
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="../service/index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Services
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <!-- <li><a href="design/">Logo Design</a></li> -->
-                                    <li><a href="../Website-design/index.html">Website Design And Development</a></li>                                
-                                    <li><a href="../app-design/index.html">App Design and Development</a></li>
-                                    <li><a href="../branding/index.html">Branding</a></li>                               
-                                    <li><a href="../book-writing/index.html">Book Writing</a></li>                               
-                                    <li><a href="../seo/index.html">SEO</a></li>                               
-                                    <li><a href="../marketing/index.html">Marketing</a></li>                               
-                                    <li><a href="../smm/index.html">SMM</a></li>                               
-                                    <li><a href="../illustration/index.html">2D And 3D Illustration</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../company/index.html">Company</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Contact</a>
-                            </li>   
-                            <div class="global_button">
-                                <a href="javascript: void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">Hire Us <span><img src="../assets/images/rocket.png" alt=""></span></a>
-                            </div>                                                  
-                        </ul>
-                    </div>
-                </nav>
-            </div>            
-        </div>
-    </div>
-</header>
-<!-- header end --><!-- header end -->
-
-<section class="contact_header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="contact_hd_inner">
-                    <ul>
-                        <li><a href="../index.html"><img src="../assets/images/white_logo.png" alt=""></a></li>
-                        <li class="mover"><img src="../assets/images/vector.png" alt=""></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="contact_sec">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="contact_inner">
-                    <h2>WANNA CHAT OVER ?</h2>
-                    <form action="/form-lead/" method="POST">
-                        <div class="inner_form_contact">
-                            <input type="text" name="name" placeholder="Name" required>
-                            <input type="number" name="phone" placeholder="Phone Number" required>
-                        </div>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <textarea name="biref" placeholder="Project Details"></textarea>
-                        <input type="submit" value="Lets Get Started">
-                    </form>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="contact_side">
-                    <div class="inner_sider">
-                        <h2>GIve US A CAll?</h2>
-                        <p><a href="tel:(000)0000000">(000) 000 0000</a></p>
-                    </div>
-                    <div class="inner_sider">
-                        <h2>Write to us?</h2>
-                        <p><a href="https://cdn-cgi/l/email-protection.html#3c4d49594e457c5d4f484e534f58555b55485d50125f5351"><span class="__cf_email__" data-cfemail="7c0d09190e053c1d0f080e130f18151b15081d10521f1311">[email&#160;protected]</span></a></p>
-                    </div>
-                    <div class="inner_sider">
-                        <h2>Come and see us!</h2>
-                        <p><a href="/" targe="_blank">123  Dazzle STREET, LONDON ABC, UK</a></p>
-                        <p><a href="https://goo.gl/maps/MZHPxLKyLuLkknHc9" targe="_blank">123  Dazzle STREET, LONDON ABC, UK</a></p>                       
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <!-- footer -->
 <!-- footer -->
 <section class="footer_main">
@@ -161,14 +5,14 @@
         <div class="row align-items-center">
             <div class="col-md-5">
                 <div class="nasa_main">
-                    <img class="mover" src="../assets/images/main.png" alt="">
+                    <img class="mover" src="assets/images/main.png" alt="">
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="footer_main">
                     <ul>
                         <li><a href="tel:(000)0000000">(000) 000 0000</a></li>
-                        <li><a href="https://cdn-cgi/l/email-protection.html#c3b0b6b3b3acb1b783a2b0b7b1acb0e3a7aaa4aab7a2afeda0acae"><span class="__cf_email__" data-cfemail="53202623233c212713322027213c20373a343a27323f7d303c3e">[email&#160;protected]</span></a></li>
+                        <li><a href="mailto:support@dazzledesign.co">support@dazzledesign.co</a></li>
                     </ul> 
                 </div>
             </div>
@@ -200,14 +44,14 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="footer_inner">
-                    <p>© Copyrights 2024 | <a href="../index.html">Dazzle Design</a> All Rights Reserved</p>
+                    <p>© Copyrights 2024 | <a href="/">Dazzle Design</a> All Rights Reserved</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="pp_links">
                     <ul>
-                        <li><a href="../terms/index.html">Terms & Conditions</a></li>
-                        <li><a href="../privacy/index.html">Privacy Policy</a></li>
+                        <li><a href="/terms/">Terms & Conditions</a></li>
+                        <li><a href="/privacy/">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -237,12 +81,12 @@
                         <p>Discuss your idea with our consultants today</p>
                     </div>
                     <div class="popup_img">
-                        <img class="mover" src="../assets/images/main.png" alt="">
+                        <img class="mover" src="assets/images/main.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form_wrap_popup">
-                        <form action="/form-lead/" method="POST">
+                        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
                             <input type="text" name="name" placeholder="Full Name" required>
                             <input type="email" name="email" placeholder="Email Address" required>
                             <input type="number" name="phone" placeholder="Phone Number" required>
@@ -259,11 +103,9 @@
 </div>
 
 
-
 <!-- footer end -->
 
 <!-- Jquery JS-->
-<!-- <script data-cfasync="false" src="https://cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
@@ -275,7 +117,7 @@
 <script type="module" src="https://unpkg.com/ionicons%407.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons%407.1.0/dist/ionicons/ionicons.js"></script>
 
-<script src="../assets/js/script.js"></script>
+<script src="/assets/js/script.js"></script>
 <script src="https://unpkg.com/aos%402.3.1/dist/aos.js"></script>
 
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
@@ -284,11 +126,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/%40fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
 
-<script src="../assets/slick/slick/slick.js"></script>
-<script src="../assets/bootstrap/js/bootstrap.js"></script>
-<script src="../index.html"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdn.jsdelivr.net/npm/%40popperjs/core%402.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="/assets/slick/slick/slick.js"></script>
+<script src="/assets/bootstrap/js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/%40popperjs/core%402.9.2/dist/umd/popper.min.js"></script>
 
 <script>
         jQuery(document).ready(function() {
@@ -594,11 +435,22 @@ $('[data-fancybox]').fancybox({
 
 </body>
 
-<!-- Mirrored from www.astrosdigital.com/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 14:33:24 GMT -->
 </html>
 
-<style>
-    section.contact_header{
-        display: block !important;
-    }
-</style>
+<?php
+
+if (isset($_POST['submit'])) {
+  $to_email = 'zeeshanzeegota@gmail.com';
+  $name = $_POST['name'];
+  $from = $_POST['email'];
+  $email = $_POST['email'];
+  $phone = $_POST['phone'];
+  $brief = $_POST['brief'];
+  $headers = "From: $from";
+
+  mail($to_email, $name, $email, $phone, $brief, implode("\r\n", $headers));
+  
+  echo"mail sent";
+}   
+
+?>

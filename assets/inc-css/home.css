@@ -66,6 +66,7 @@ marquee span {
     right: -100px;
     top: 15%;
     animation: mover 1s infinite alternate;
+    background-size: cover;
 }
 
 .inner_banner:before {
@@ -182,14 +183,15 @@ h2.left {
     content: '';
     display: block;
     position: absolute;
-    background-image: url(../images/vector.png);
+    background-image: url(../images/circle.png);
     background-repeat: no-repeat;
-    width: 122px;
-    height: 122px;
+    width: 160px;
+    height: 160px;
     left: 25px;
     top: 20%;
     transform: rotate3d(1, 7, 1, 185deg);
     animation: mover 1s infinite alternate;
+    background-size: cover;
 }
 
 .global_heading:after {
@@ -387,7 +389,9 @@ section.sec_3 {
 }
 
 .heading_wrap p span {
-    color: #7c21c7;
+    /* color: #7c21c7; */
+    color: #b067f7;
+    font-weight: 900;
 }
 
 section.sec_4 {
@@ -758,7 +762,12 @@ input[type="submit"] {
     text-align: center;
     position: absolute;
     left: 30%;
-    top: -90px;
+    top: 0px;
+    width: 150px;
+}
+
+.nasa_main img {
+    width: 100%;
 }
 
 .footer_main ul li a, .footer_main p, .footer_main p a {
@@ -771,13 +780,14 @@ input[type="submit"] {
 }
 
 section.footer_main {
-    background-image: url(../images/moon.png);
+    background-image: url(../images/logo.png);
     background-repeat: no-repeat;
     background-position: left;
     height: 200px;
     position: relative;
     display: flex;
     align-items: center;
+    background-size: 400px;
 }
 
 section.footer_main:before {
@@ -790,6 +800,7 @@ section.footer_main:before {
     height: 296.3px;
     top: -112px;
     background-size: 91%;
+    display: none;
 }
 
 section.sec_bottom {
@@ -937,14 +948,14 @@ section.contact_sec .row {
 
 
 @media only screen and (max-width: 1500px){
-    .text_wrap {
+    /* .text_wrap {
         bottom: 140px !important;
-    }
+    } */
 }
 @media only screen and (max-width: 1399px){
-    .text_wrap {
+    /* .text_wrap {
         bottom: 0 !important;
-    }
+    } */
 
     .inner_service_pg h1 {
         font-size: 40px !important;
@@ -2120,10 +2131,11 @@ section.sec_3:before, section.sec_3:after {
 
 section.sec_3:after{
     left: unset;
-    right: 20%;
+    right: 12%;
     bottom: unset;
     top: 0;
     background-image: url(../images/vector.png);
+    background-size: cover;
 }
 
 .footer_inner p a {

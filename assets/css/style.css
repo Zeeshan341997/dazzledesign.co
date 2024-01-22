@@ -773,7 +773,12 @@ button.popup_button:hover {background: #f3ad16; }
 
 .popup_img {
     text-align: center;
-    margin: 20px 0 0 0;
+    margin: 20px auto 0;
+    width: 200px;
+}
+
+.popup_img img {
+    width: 100%;
 }
 
 .popup_heading h2:before {
@@ -788,6 +793,7 @@ button.popup_button:hover {background: #f3ad16; }
     top: -30px;
     background-size: 50%;
     animation: mover 1s infinite alternate;
+    display: none;
 }
 
 .popup_heading p:after {
@@ -798,7 +804,7 @@ button.popup_button:hover {background: #f3ad16; }
     width: 131px;
     height: 68px;
     right: -60px;
-    bottom: -40px;
+    bottom: -60px;
     background-size: 70%;
     background-repeat: no-repeat;
     animation: mover 1s infinite alternate;
