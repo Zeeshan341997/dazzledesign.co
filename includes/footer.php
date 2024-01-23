@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form_wrap_popup">
-                        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+                        <form action="/form-lead/" method="POST">
                             <input type="text" name="name" placeholder="Full Name" required>
                             <input type="email" name="email" placeholder="Email Address" required>
                             <input type="number" name="phone" placeholder="Phone Number" required>
@@ -437,20 +437,3 @@ $('[data-fancybox]').fancybox({
 
 </html>
 
-<?php
-
-if (isset($_POST['submit'])) {
-  $to_email = 'zeeshanzeegota@gmail.com';
-  $name = $_POST['name'];
-  $from = $_POST['email'];
-  $email = $_POST['email'];
-  $phone = $_POST['phone'];
-  $brief = $_POST['brief'];
-  $headers = "From: $from";
-
-  mail($to_email, $name, $email, $phone, $brief, implode("\r\n", $headers));
-  
-  echo"mail sent";
-}   
-
-?>

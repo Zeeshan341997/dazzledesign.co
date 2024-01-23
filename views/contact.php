@@ -8,7 +8,7 @@
             <div class="col-md-12">
                 <div class="contact_hd_inner">
                     <ul>
-                        <li><a href="/"><img src="../assets/images/white_logo.png" alt=""></a></li>
+                        <li><a href="/" class="logo"><img src="../assets/images/white_logo.png" alt=""></a></li>
                         <li class="mover"><img src="../assets/images/vector.png" alt=""></li>
                     </ul>
                 </div>

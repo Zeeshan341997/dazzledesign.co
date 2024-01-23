@@ -497,8 +497,14 @@ header.header_wrap {position: absolute;width: 100%;top: 10px;z-index: 999;}
     color: #1b1b1b;
 }
 
+.contact_hd_inner a.logo,
 .logo {
     width: 190px;
+    display: block;
+}
+
+.contact_hd_inner li.mover {
+    width: 120px;
 }
 
 .logo a {
@@ -506,6 +512,12 @@ header.header_wrap {position: absolute;width: 100%;top: 10px;z-index: 999;}
     display: block;
 }
 
+.contact_hd_inner a.logo img {
+    width: 100%;
+    filter: brightness(0) invert(1);
+}
+
+.contact_hd_inner li.mover img,
 .logo a img {
     width: 100%;
 }
