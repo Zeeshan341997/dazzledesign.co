@@ -9,7 +9,7 @@
         <div class="row align-items-center">
             <div class="col-lg-2">
                 <div class="logo">
-                    <a href="/"><img id="myImage" src="assets/images/logo.png" alt=""></a>
+                    <a href="/"><img id="myImage" src="/assets/images/logo.png" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-10">
@@ -24,11 +24,11 @@
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="/"><i class="fa-solid fa-house"></i></a>
                             </li>                            
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#service" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services
                                 </a>
-                                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a href="design/">Logo Design</a></li>
                                     <li><a href="Website-design/index.html">Website Design And Development</a></li>                                
                                     <li><a href="app-design/index.html">App Design and Development</a></li>
@@ -38,10 +38,13 @@
                                     <li><a href="marketing/index.html">Marketing</a></li>                               
                                     <li><a href="smm/index.html">SMM</a></li>                               
                                     <li><a href="illustration/index.html">2D And 3D Illustration</a></li>
-                                </ul> -->
+                                </ul>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                                <a class="nav-link" href="/#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/company/">Company</a>
@@ -53,7 +56,7 @@
                                 <a href="javascript: void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     Hire Us 
                                     <span>
-                                        <img src="assets/images/rocket.png" alt="">
+                                        <img src="/assets/images/rocket.png" alt="">
                                     </span>
                                 </a>
                             </div>                                                  

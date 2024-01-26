@@ -32,6 +32,7 @@
 
 <?php
 
+
 if (isset($_POST['submit'])) {
   $to_email = 'zeeshanzeegota@gmail.com';
   $name = $_POST['name'];
@@ -41,17 +42,27 @@ if (isset($_POST['submit'])) {
   $brief = $_POST['brief'];
   $headers = "From: $from";
 
-  mail($to_email, $name, $email, $phone, $brief, implode("\r\n", $headers));
-  
-  $msg = '<h2>Thank you for your submission, $name!</h2>';
+  // Message body
+  $message = "Name: $name\r\n";
+  $message .= "Email: $email\r\n";
+  $message .= "Phone: $phone\r\n";
+  $message .= "Brief: $brief\r\n";
 
-  echo "<script>
+  // Sending the email
+  $mailSuccess = mail($to_email, "Brief Submission", $message, $headers);
+  
+  if ($mailSuccess) {
+    $msg = "<h2>Thank you for your submission, $name!</h2>";
+  
+    echo "<script>
+      window.open('/thank-you/?thanksMsg=$msg','_self')
+      </script>";
+  } else {
+    $msg = '<h2 class="text-center">Sorry your submission failed!</h2>';
+    echo "<script>
     window.open('/thank-you/?thanksMsg=$msg','_self')
     </script>";
-    echo "Redirect failed. Please click on this link: <a href='/thank-you/?thanksMsg=$msg'>/thank-you/?thanksMsg=$msg</a>";
+  }
 }
-else{
-    exit(header("location:/thank-you/?thanksMsg=$msg"));
-}  
 
 ?>

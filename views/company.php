@@ -13,7 +13,7 @@
                     <p>Dazzle Design has made giant leaps in this rapidly growing tech industry, from outsourcing marketing and development services to becoming a full-stack digital agency. Since our humble beginning, we have been increasing the diversity of services annually. Now we have a complete team of experts required for every single creative process.</p>
                 </div> 
                 <div class="global_button text-start">
-                    <a href="javascript: void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">LETS GET STARTED <span><img src="../assets/images/rocket.png" alt=""></span></a>
+                    <a href="javascript: void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">LETS GET STARTED <span><img src="/assets/images/rocket.png" alt=""></span></a>
                 </div> 
             </div>        
         </div>   
@@ -30,12 +30,12 @@
                     <p class="checking2">Hired after an extensive vetting process, the talent at Dazzle Design is second to none. We accept challenges with a smile and believe in the power of teamwork. We are all united in our goal of churning out the best work you’ve ever seen!</p>
                 </div>
                 <div class="global_button text-start">
-                    <a href="javascript: void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">LETS GET STARTED <span><img src="../assets/images/rocket.png" alt=""></span></a>
+                    <a href="javascript: void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">LETS GET STARTED <span><img src="/assets/images/rocket.png" alt=""></span></a>
                 </div> 
             </div>
             <div class="col-md-6">
                 <div class="simple_img">
-                    <img src="../assets/images/team.jpg" alt="">
+                    <img src="/assets/images/team.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -147,7 +147,7 @@
                 <div class="form_inner">
                     <h2>Providing the Level of Digital Services You Need. No More. No Less.</h2>
                     <p>Contact us, and we’ll give you a tour of our success strategy and tell you how we can help you build your incredible online presence.</p>
-                    <form action="/form-lead/" method="POST">
+                    <form action="form-lead.php" method="POST">
                         <input type="text" name="name" placeholder="Name" required>
                         <input type="number" name="phone" placeholder="Phone Number" required>
                         <input type="email" name="email" placeholder="Email" required>

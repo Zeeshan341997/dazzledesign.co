@@ -780,7 +780,7 @@ input[type="submit"] {
 }
 
 section.footer_main {
-    background-image: url(../images/logo.png);
+    /* background-image: url(../images/logo.png); */
     background-repeat: no-repeat;
     background-position: left;
     height: 200px;
@@ -933,6 +933,7 @@ section.contact_header {
     margin: auto;
     top: 20px;
     z-index: 999999;
+    display: none;
 }
 
 section.contact_sec .row {
@@ -1616,7 +1617,8 @@ li.inner_banner {
 
     .testimonial_boxes ul li {
         flex: 0 0 100%;
-        margin: 70px 20px 80px 20px !important;
+        /* margin: 70px 20px 80px 20px !important; */
+        margin: 0;
     }
     
     section.sec_5 {
@@ -1692,6 +1694,15 @@ li.inner_banner {
         width: 45px;
         background-size: 80%;
         height: 14px;
+    }
+
+    .testimonial_boxes ul li h5 {
+        position: relative;
+        top: 0;
+    }
+
+    .testimonial_boxes ul li {
+        padding-top: 20px;
     }
     
 }
@@ -1862,7 +1873,8 @@ section.contact_sec:after {
     content: '';
     display: block;
     position: absolute;
-    background-image: url(../images/plane_new.png);
+    /* background-image: url(../images/plane_new.png); */
+    background-image: url(../images/vector.png);
     background-repeat: no-repeat;
     width: 281px;
     height: 200px;
@@ -1870,6 +1882,8 @@ section.contact_sec:after {
     right: 0;
     left: 0;
     margin: auto;
+    background-size: contain;
+    display: none;
 }
 
 body.contact_page header.header_wrap {

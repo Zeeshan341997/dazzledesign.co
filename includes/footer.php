@@ -4,8 +4,13 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-5">
+                <div class="footer_logo">
+                    <a href="/">
+                      <img src="/assets/images/white_logo.png" alt="">
+                    </a>
+                </div>
                 <div class="nasa_main">
-                    <img class="mover" src="assets/images/main.png" alt="">
+                    <img class="mover" src="/assets/images/main.png" alt="">
                 </div>
             </div>
             <div class="col-md-3">
@@ -81,12 +86,12 @@
                         <p>Discuss your idea with our consultants today</p>
                     </div>
                     <div class="popup_img">
-                        <img class="mover" src="assets/images/main.png" alt="">
+                        <img class="mover" src="/assets/images/main.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form_wrap_popup">
-                        <form action="/form-lead/" method="POST">
+                        <form action="form-lead.php" method="POST">
                             <input type="text" name="name" placeholder="Full Name" required>
                             <input type="email" name="email" placeholder="Email Address" required>
                             <input type="number" name="phone" placeholder="Phone Number" required>
@@ -106,7 +111,8 @@
 <!-- footer end -->
 
 <!-- Jquery JS-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
@@ -120,11 +126,10 @@
 <script src="/assets/js/script.js"></script>
 <script src="https://unpkg.com/aos%402.3.1/dist/aos.js"></script>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> -->
 
-<script src="https://cdn.jsdelivr.net/npm/%40fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <script src="/assets/slick/slick/slick.js"></script>
 <script src="/assets/bootstrap/js/bootstrap.js"></script>
@@ -355,7 +360,7 @@ jQuery(document).ready(function() {
 });
 
 
-$('[data-fancybox]').fancybox({
+jQuery('[data-fancybox]').fancybox({
   // Options will go here
   buttons : [
     'close'
@@ -379,56 +384,56 @@ $('[data-fancybox]').fancybox({
   AOS.init();
 </script>
 <script>
-  $(document).ready(function() {
-    if ($(window).width() < 768) {
-  $('.testimonial_slider').slick({
-        dots: true,
-		arrows: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        slidesToShow: 5,
-        settings: "unslick",
-        slidesToScroll: 1,
-        responsive: [
-       
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+  jQuery(document).ready(function() {
+    if (jQuery(window).width() < 768) {
+      jQuery('.testimonial_slider').slick({
+          dots: true,
+          arrows: false,
+          infinite: true,
+          speed: 300,
+          autoplay: true,
+          slidesToShow: 5,
+          settings: "unslick",
+          slidesToScroll: 1,
+          responsive: [
+        
+              {
+                  breakpoint: 992,
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1,
 
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                  }
+              },
+              {
+                  breakpoint: 767,
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
 
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                  }
+              },
+              {
+                  breakpoint: 600,
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
 
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-        ]
-    })
-  }
+                  }
+              },
+              {
+                  breakpoint: 480,
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                  }
+              }
+              // You can unslick at a given breakpoint now by adding:
+              // settings: "unslick"
+              // instead of a settings object
+          ]
+      })
+    }
   });
 </script>
 

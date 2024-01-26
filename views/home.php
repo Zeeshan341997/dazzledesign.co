@@ -13,7 +13,7 @@
                     <p>Redefine Your Digital Presence</p>
                 </div>
                 <div class="global_button">
-                    <a href="javascript: void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">LETS GET STARTED <span><img src="assets/images/rocket.png" alt=""></span></a>
+                    <a href="javascript: void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">LETS GET STARTED <span><img src="/assets/images/rocket.png" alt=""></span></a>
                 </div>              
          </div>        
      </div>
@@ -31,7 +31,7 @@
 
 
 <!-- sec-2 -->
-<section class="sec_2" id="section2">
+<section class="sec_2" id="services">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -51,14 +51,14 @@
             </div>
             <div class="col-md-6">
                 <div class="service_img">
-                    <img src="assets/images/service_1.png" alt="">
+                    <img src="/assets/images/service_1.png" alt="">
                 </div>
             </div>
         </div>
         <div class="row border_wrap mt-5 align-items-center" data-aos="fade-right" data-aos-duration="1500">           
             <div class="col-md-6">
                 <div class="service_img">
-                    <img src="assets/images/service_2.png" alt="">
+                    <img src="/assets/images/service_2.png" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -77,14 +77,14 @@
             </div>
             <div class="col-md-6">
                 <div class="service_img">
-                    <img src="assets/images/service_3.png" alt="">
+                    <img src="/assets/images/service_3.png" alt="">
                 </div>
             </div>
         </div>
         <div class="row border_wrap mt-5 align-items-center" data-aos="fade-right" data-aos-duration="1500">           
             <div class="col-md-6">
                 <div class="service_img">
-                    <img src="assets/images/service_4.png" alt="">
+                    <img src="/assets/images/service_4.png" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -142,7 +142,7 @@
             </div>
             <div class="col-md-6">
                 <div class="three_d_img mover_2" data-aos="zoom-in" data-aos-duration="1500">
-                    <img src="assets/images/image2.png" alt="">
+                    <img src="/assets/images/image2.png" alt="">
                 </div>
             </div>
             <div class="col-md-3">
@@ -187,7 +187,7 @@
             <div class="col-md-3">
                 <div class="three_d_inner">
                     <div class="three_d_img mover_2" data-aos="zoom-in" data-aos-duration="1500">
-                        <img src="assets/images/image2.png" alt="">
+                        <img src="/assets/images/image2.png" alt="">
                     </div>
                     <ul>
                         <li class="inner_banner seo_inner">
@@ -324,7 +324,7 @@
                 <div class="form_inner">
                     <h2>Providing the Level of Digital Services You Need. No More. No Less.</h2>
                     <p>Contact us, and we’ll give you a tour of our success strategy and tell you how we can help you build your incredible online presence.</p>
-                    <form action="/form-lead/" method="POST">
+                    <form action="form-lead.php" method="POST">
                         <input type="text" name="name" placeholder="Name" required>
                         <input type="number" name="phone" placeholder="Phone Number" required>
                         <input type="email" name="email" placeholder="Email" required>

@@ -503,10 +503,15 @@ header.header_wrap {position: absolute;width: 100%;top: 10px;z-index: 999;}
     display: block;
 }
 
+.footer_logo {
+    width: 250px;
+}
+
 .contact_hd_inner li.mover {
     width: 120px;
 }
 
+.footer_logo a,
 .logo a {
     width: 100%;
     display: block;
@@ -515,8 +520,9 @@ header.header_wrap {position: absolute;width: 100%;top: 10px;z-index: 999;}
 .contact_hd_inner a.logo img {
     width: 100%;
     filter: brightness(0) invert(1);
-}
 
+}
+.footer_logo a img,
 .contact_hd_inner li.mover img,
 .logo a img {
     width: 100%;

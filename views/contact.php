@@ -1,5 +1,12 @@
 <?php include_once('includes/head.php')?>
 
+<style>
+    .logo a img {
+        width: 100%;
+        filter: brightness(0) invert(1);
+    }
+</style>
+
 <?php include_once('includes/header.php')?>
 
 <section class="contact_header">
@@ -23,7 +30,7 @@
             <div class="col-md-8">
                 <div class="contact_inner">
                     <h2>WANNA CHAT OVER ?</h2>
-                    <form action="/form-lead/" method="POST">
+                    <form action="form-lead.php" method="POST">
                         <div class="inner_form_contact">
                             <input type="text" name="name" placeholder="Name" required>
                             <input type="number" name="phone" placeholder="Phone Number" required>

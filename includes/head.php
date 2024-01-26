@@ -4,14 +4,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <base href="<?= $requesMet.'://'.$_SERVER['HTTP_HOST'].'/' ?>"> -->
 
         <title>Dazzle Design - Transforming Ideas into Web Solutions</title>
         <meta name="description" content="Explore Dazzle Design for innovative website solutions. Transform your ideas into powerful online experiences with our expert team."/>
         <meta name="keywords" content="Dazzle Design">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="canonical" href="<?= $requesMet.'://'.$_SERVER['HTTP_HOST'].'/' ?>">
-        <meta name="robots" content="index, follow">
+        <!--<meta name="robots" content="index, follow">-->
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/%40fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css">
         <link href="https://unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
