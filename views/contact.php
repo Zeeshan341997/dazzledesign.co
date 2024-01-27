@@ -30,7 +30,7 @@
             <div class="col-md-8">
                 <div class="contact_inner">
                     <h2>WANNA CHAT OVER ?</h2>
-                    <form action="form-lead.php" method="POST">
+                    <form action="/form-lead/" method="POST">
                         <div class="inner_form_contact">
                             <input type="text" name="name" placeholder="Name" required>
                             <input type="number" name="phone" placeholder="Phone Number" required>

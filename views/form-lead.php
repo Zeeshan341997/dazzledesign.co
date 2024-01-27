@@ -35,6 +35,7 @@
 
 if (isset($_POST['submit'])) {
   $to_email = 'zeeshanzeegota@gmail.com';
+  $subject = 'Lead Form';
   $name = $_POST['name'];
   $from = $_POST['email'];
   $email = $_POST['email'];

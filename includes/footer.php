@@ -91,7 +91,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form_wrap_popup">
-                        <form action="form-lead.php" method="POST">
+                        <form action="/form-lead/" method="POST">
                             <input type="text" name="name" placeholder="Full Name" required>
                             <input type="email" name="email" placeholder="Email Address" required>
                             <input type="number" name="phone" placeholder="Phone Number" required>
@@ -133,6 +133,8 @@
 
 <script src="/assets/slick/slick/slick.js"></script>
 <script src="/assets/bootstrap/js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/%40popperjs/core%402.9.2/dist/umd/popper.min.js"></script>
 
@@ -279,7 +281,7 @@ jQuery(document).ready(function() {
         TweenMax.staggerTo(el, 0.8, {color:'#7c21c7', ease:Power4.easeOut},0.07);
     } else {
         TweenMax.staggerTo(el, 0.8, {color:'#000', ease:Power4.easeOut},0.07);
-    }php
+    }
     });
 });
 
@@ -291,7 +293,7 @@ jQuery(document).ready(function() {
         TweenMax.staggerTo(el, 0.8, {color:'#7c21c7', ease:Power4.easeOut},0.07);
     } else {
         TweenMax.staggerTo(el, 0.8, {color:'#000', ease:Power4.easeOut},0.07);
-    }php
+    }
     });
 });
 
@@ -304,7 +306,7 @@ jQuery(document).ready(function() {
         TweenMax.staggerTo(el, 0.8, {color:'#7c21c7', ease:Power4.easeOut},0.07);
     } else {
         TweenMax.staggerTo(el, 0.8, {color:'#000', ease:Power4.easeOut},0.07);
-    }php
+    }
     });
 });
 
@@ -378,6 +380,40 @@ jQuery('[data-fancybox]').fancybox({
 });
 
 
+</script>
+
+<script>
+jQuery(document).ready(function(){
+  jQuery('.fancyboxVideo').click(function(){
+    var dataSrc = jQuery(this).attr('data-href');
+   
+    jQuery('.myVideo').attr('src',dataSrc);
+    jQuery('#modalForVideo').modal('show');
+    jQuery('.myVideo').trigger('play');
+  });
+
+  jQuery('#modalForVideo').on('hidden.bs.modal', function (e) {
+    // do something...
+    jQuery('.myVideo').trigger('pause');
+  });
+
+});
+
+jQuery('.fancybox').fancybox();
+</script>
+
+<script>
+  jQuery(document).ready(function(){
+  // Media query to check if the screen width is less than or equal to 768px (adjust this as needed)
+  if (jQuery(window).width() <= 768) {
+    jQuery(".owl-carousel").owlCarousel({
+      items: 1, // Number of items to display
+      loop: true, // Infinite loop
+      autoplay: true, // Autoplay the slider
+      // Add other Owl Carousel options here
+    });
+  }
+});
 </script>
 
 <script>

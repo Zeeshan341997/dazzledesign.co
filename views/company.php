@@ -147,7 +147,7 @@
                 <div class="form_inner">
                     <h2>Providing the Level of Digital Services You Need. No More. No Less.</h2>
                     <p>Contact us, and we’ll give you a tour of our success strategy and tell you how we can help you build your incredible online presence.</p>
-                    <form action="form-lead.php" method="POST">
+                    <form action="/form-lead/" method="POST">
                         <input type="text" name="name" placeholder="Name" required>
                         <input type="number" name="phone" placeholder="Phone Number" required>
                         <input type="email" name="email" placeholder="Email" required>
