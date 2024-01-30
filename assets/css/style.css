@@ -1441,9 +1441,11 @@ section.book_sec {
     /* color: #012840; */
     color: #fff !important;
     border: none !important;
+    opacity: 1;
 }
 
 .nav-pills .nav-link {
+    font-family: 'Medium';
     background-color: transparent;
     /* color: #012840; */
     color: #000;
@@ -1463,15 +1465,17 @@ section.book_sec {
 
 .nav-pills .nav-link {
     height: 40px;
-    width: 146px;
+    width: 170px;
     font-size: 13px;
     font-weight: 500;
     margin: 2px;
     padding: 2px;
     transition: .4s;
+    opacity: .7;
 }
 
 .nav-pills .nav-link:hover {
+    opacity: 1;
     color: #7c21c7;
 }
 

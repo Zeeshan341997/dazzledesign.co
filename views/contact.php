@@ -5,6 +5,10 @@
         width: 100%;
         filter: brightness(0) invert(1);
     }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
 </style>
 
 <?php include_once('includes/header.php')?>
@@ -45,11 +49,11 @@
                 <div class="contact_side">
                     <div class="inner_sider">
                         <h2>GIve US A CAll?</h2>
-                        <p><a href="tel:(000)0000000">(000) 000 0000</a></p>
+                        <p><a href="tel:+447456695643">+44 7456 695643</a></p>
                     </div>
                     <div class="inner_sider">
                         <h2>Write to us?</h2>
-                        <p><a href="#">Email</a></p>
+                        <p><a href="mailto:contact@dazzledesign.co">contact@dazzledesign.co</a></p>
                     </div>
                     <div class="inner_sider">
                         <h2>Come and see us!</h2>

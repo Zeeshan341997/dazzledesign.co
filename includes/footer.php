@@ -16,8 +16,8 @@
             <div class="col-md-3">
                 <div class="footer_main">
                     <ul>
-                        <li><a href="tel:(000)0000000">(000) 000 0000</a></li>
-                        <li><a href="mailto:support@dazzledesign.co">support@dazzledesign.co</a></li>
+                        <li><a href="tel:+447456695643">+44 7456 695643</a></li>
+                        <li><a href="mailto:contact@dazzledesign.co">contact@dazzledesign.co</a></li>
                     </ul> 
                 </div>
             </div>

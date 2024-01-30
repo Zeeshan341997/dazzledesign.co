@@ -21,7 +21,7 @@
             <div class="col-md-12">
                 <div class="text_wrap">
                     <marquee attribute_name = "attribute_value"....more attributes>
-                    <span>400+</span> Marketing Collateral <span>1.5k</span> logos & identity <span>1.2k</span> Websites developed <span>7.3k</span> Secs Animated <span>5+</span> Years of experience
+                        <span>1000+</span> Flyer Design <span>1.5k</span> logos & identity <span>1000+</span> Animation <span>200+</span> Video Editing <span>5+</span> Years of experience
                     </marquee>
                 </div>
             </div>
