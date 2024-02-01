@@ -23,12 +23,12 @@
             </div>
             <div class="col-md-2">
                 <div class="footer_main">
-                    <p><a href="#" target="_blank">123  Dazzle STREET, LONDON ABC, UK</a></p>
+                    <p><a href="#" target="_blank">61 Queen St Pl, Greater, London EC4R 1EB, United Kingdom</a></p>
                 </div>
             </div>
             <div class="col-md-2">
                 <div class="footer_main">
-                    <p><a href="#" target="_blank">123  Dazzle STREET, LONDON ABC, UK</a></p>
+                    <p><a href="#" target="_blank">61 Queen St Pl, Greater, London EC4R 1EB, United Kingdom</a></p>
                 </div>
             </div>
         </div>

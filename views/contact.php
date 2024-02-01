@@ -57,8 +57,8 @@
                     </div>
                     <div class="inner_sider">
                         <h2>Come and see us!</h2>
-                        <p><a href="/" targe="_blank">123  Dazzle STREET, LONDON ABC, UK</a></p>
-                        <p><a href="/" targe="_blank">123  Dazzle STREET, LONDON ABC, UK</a></p>                       
+                        <p><a href="/" targe="_blank">61 Queen St Pl, Greater, London EC4R 1EB, United Kingdom</a></p>
+                        <p><a href="/" targe="_blank">61 Queen St Pl, Greater, London EC4R 1EB, United Kingdom</a></p>                       
                     </div>
                 </div>
             </div>
