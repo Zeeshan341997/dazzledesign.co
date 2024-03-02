@@ -15,17 +15,19 @@
                 <div class="global_button">
                     <a href="javascript: void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">LETS GET STARTED <span><img src="/assets/images/rocket.png" alt=""></span></a>
                 </div>              
-         </div>        
-     </div>
+            </div>        
+        </div>
+        
+    </div>
     <div class="row">
-            <div class="col-md-12">
-                <div class="text_wrap">
-                    <marquee attribute_name = "attribute_value"....more attributes>
-                        <span>1000+</span> Flyer Design <span>1.5k</span> logos & identity <span>1000+</span> Animation <span>200+</span> Video Editing <span>5+</span> Years of experience
-                    </marquee>
-                </div>
+        <div class="col-md-12">
+            <div class="text_wrap">
+                <marquee attribute_name = "attribute_value"....more attributes>
+                    <span>1000+</span> Flyer Design <span>1.5k</span> logos & identity <span>1000+</span> Animation <span>200+</span> Video Editing <span>5+</span> Years of experience
+                </marquee>
             </div>
         </div>
+    </div>
 </section>
 <!-- sec_1 end -->
 
@@ -245,7 +247,7 @@
                         <div class="tab-pane fade show active" id="pills-logo" role="tabpanel" aria-labelledby="pills-logo-tab">
                             <!-- Page Content -->
                             <div class="page-top ml-3">
-                                <div class="row owl-carousel d-flex">
+                                <div class="row port_tab_slider d-flex">
                                                                                 <div class="col-lg-3 col-md-4 col-xs-6 thumb item">
                                         <a href="/assets/images/portfolio/logo-design/logo-design-1.png" class="fancybox" rel="ligthbox">
                                             <img src="/assets/images/portfolio/logo-design/logo-design-1.png" class="zoom img-fluid " alt="logo portfolio">
@@ -565,14 +567,11 @@
 
                                 </div>
                             </div>
-
-
                         </div>
                         <div class="tab-pane fade" id="pills-webs" role="tabpanel" aria-labelledby="pills-webs-tab">
                             <div class="page-top ml-3">
-                                <div class="row owl-carousel d-flex">
+                                <div class="row port_tab_slider d-flex">
 
-                                    
                                     <div class="col-lg-3 col-md-4 col-xs-6 screen item">
                                         <a href="/assets/images/portfolio/website/1.jpg" class="fancybox" rel="ligthbox">
                                             <img src="/assets/images/portfolio/website/1.jpg" class="image-responsive" alt="">
@@ -742,16 +741,12 @@
                                         </a>
                                     </div>
                                     
-
-
-
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-branding-tab">
                             <div class="page-top ml-3">
-                                <div class="row owl-carousel d-flex">
-
+                                <div class="row port_tab_slider d-flex">
                                     
                                     <div class="col-lg-3 col-md-4 col-xs-6 thumb item">
                                         <a href="/assets/images/portfolio/branding/branding-design-1.png" class="fancybox" rel="ligthbox">
@@ -1039,7 +1034,7 @@
                                     </div>
                                 </div>
 
-                                <div class="row owl-carousel d-flex">
+                                <div class="row port_tab_slider d-flex">
 
                                                                                 <div class="col-lg-3 col-md-4 col-xs-6 thumb item">
                                         <a href="javascript:void(0);" data-href="/assets/images/portfolio/video/1.mp4" class="fancyboxVideo" rel="ligthbox">
@@ -1149,7 +1144,7 @@
                         </div>
 
                         <div class="tab-pane fade" id="pills-mobile" role="tabpanel" aria-labelledby="pills-mobile-tab">
-                            <div class="row owl-carousel d-flex">
+                            <div class="row port_tab_slider d-flex">
 
                                                                         <div class="col-lg-3 col-md-4 col-xs-6 thumb item">
                                     <a href="/assets/images/portfolio/app/app-design-1.png" class="fancybox" rel="ligthbox">

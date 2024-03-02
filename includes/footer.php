@@ -1,5 +1,4 @@
 <!-- footer -->
-<!-- footer -->
 <section class="footer_main">
     <div class="container">
         <div class="row align-items-center">
@@ -55,8 +54,8 @@
             <div class="col-md-4">
                 <div class="pp_links">
                     <ul>
-                        <li><a href="/terms/">Terms & Conditions</a></li>
-                        <li><a href="/privacy/">Privacy Policy</a></li>
+                        <li><a href="/">Terms & Conditions</a></li>
+                        <li><a href="/">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -467,6 +466,46 @@ jQuery('.fancybox').fancybox();
               // You can unslick at a given breakpoint now by adding:
               // settings: "unslick"
               // instead of a settings object
+          ]
+      })
+    }
+  });
+
+  jQuery(document).ready(function() {
+    if (jQuery(window).width() < 768) {
+      jQuery('.port_tab_slider').slick({
+          dots: false,
+          arrows: false,
+          infinite: true,
+          speed: 300,
+          autoplay: true,
+          slidesToShow: 1,
+          settings: "unslick",
+          slidesToScroll: 1,
+          responsive: [
+              {
+                  breakpoint: 767,
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+
+                  }
+              },
+              {
+                  breakpoint: 600,
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+
+                  }
+              },
+              {
+                  breakpoint: 480,
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                  }
+              }
           ]
       })
     }

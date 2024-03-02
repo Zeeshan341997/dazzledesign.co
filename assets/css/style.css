@@ -83,8 +83,12 @@ nav.navbar ul.navbar-nav li a {
     line-height: normal;
 }
 
-nav.navbar ul.navbar-nav li {
-    margin: 0 0 0 20px;
+nav.navbar ul.navbar-nav {
+    gap: 15px;
+}
+
+ul.navbar-nav .global_button {
+    margin: 0;
 }
 
 
@@ -1530,3 +1534,9 @@ img.zoom {
         transform: translateX(0);
     }
 }
+
+/* @media(max-width:767px){
+    .img.zoom {
+        height: 600px !important;
+    }
+} */
