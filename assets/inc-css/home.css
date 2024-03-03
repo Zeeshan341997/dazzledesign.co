@@ -5,6 +5,7 @@ section.sec_1 {
     padding: 170px 0 60px 0;
     position: relative;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .inner_banner {
@@ -34,7 +35,7 @@ section.sec_1 {
     line-height: normal;
 }
 
-.text_wrap {position: relative;margin: 20px auto;}
+.text_wrap {position: relative;margin: 20px auto;width: 100%;}
 
 marquee {
     color: #1D1D1D;

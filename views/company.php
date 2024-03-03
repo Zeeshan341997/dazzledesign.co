@@ -152,7 +152,7 @@
                         <input type="number" name="phone" placeholder="Phone Number" required>
                         <input type="email" name="email" placeholder="Email" required>
                         <textarea name="biref" placeholder="Project Details"></textarea>
-                        <input type="submit" value="Lets Get Started">
+                        <input type="submit" name="send" value="Lets Get Started">
                     </form>
                 </div>
             </div>

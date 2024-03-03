@@ -41,7 +41,7 @@
                         </div>
                         <input type="email" name="email" placeholder="Email" required>
                         <textarea name="biref" placeholder="Project Details"></textarea>
-                        <input type="submit" value="Lets Get Started">
+                        <input type="submit" name="send" value="Lets Get Started">
                     </form>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     <div class="inner_sider">
                         <h2>Come and see us!</h2>
                         <p><a href="/" targe="_blank">61 Queen St Pl, Greater, London EC4R 1EB, United Kingdom</a></p>
-                        <p><a href="/" targe="_blank">61 Queen St Pl, Greater, London EC4R 1EB, United Kingdom</a></p>                       
+                        <!-- <p><a href="/" targe="_blank">61 Queen St Pl, Greater, London EC4R 1EB, United Kingdom</a></p> -->
                     </div>
                 </div>
             </div>

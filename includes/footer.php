@@ -20,16 +20,16 @@
                     </ul> 
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <div class="footer_main">
                     <p><a href="#" target="_blank">61 Queen St Pl, Greater, London EC4R 1EB, United Kingdom</a></p>
                 </div>
             </div>
-            <div class="col-md-2">
+            <!-- <div class="col-md-2">
                 <div class="footer_main">
                     <p><a href="#" target="_blank">61 Queen St Pl, Greater, London EC4R 1EB, United Kingdom</a></p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -95,7 +95,7 @@
                             <input type="email" name="email" placeholder="Email Address" required>
                             <input type="number" name="phone" placeholder="Phone Number" required>
                             <textarea name="brief" placeholder="Enter a brief description"></textarea>
-                            <input type="submit" value="Submit">
+                            <input type="submit" name="send" value="Submit">
                         </form>
                     </div>
                 </div>

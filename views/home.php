@@ -20,12 +20,10 @@
         
     </div>
     <div class="row">
-        <div class="col-md-12">
-            <div class="text_wrap">
-                <marquee attribute_name = "attribute_value"....more attributes>
-                    <span>1000+</span> Flyer Design <span>1.5k</span> logos & identity <span>1000+</span> Animation <span>200+</span> Video Editing <span>5+</span> Years of experience
-                </marquee>
-            </div>
+        <div class="text_wrap">
+            <marquee attribute_name = "attribute_value"....more attributes>
+                <span>1000+</span> Flyer Design <span>1.5k</span> logos & identity <span>1000+</span> Animation <span>200+</span> Video Editing <span>5+</span> Years of experience
+            </marquee>
         </div>
     </div>
 </section>
@@ -1502,7 +1500,7 @@
                         <input type="number" name="phone" placeholder="Phone Number" required>
                         <input type="email" name="email" placeholder="Email" required>
                         <textarea name="brief" placeholder="Project Details"></textarea>
-                        <input type="submit" value="Lets Get Started">
+                        <input type="submit" name="send" value="Lets Get Started">
                     </form>
                 </div>
             </div>

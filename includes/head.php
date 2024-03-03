@@ -9,7 +9,7 @@
         <meta name="description" content="Explore Dazzle Design for innovative website solutions. Transform your ideas into powerful online experiences with our expert team."/>
         <meta name="keywords" content="Dazzle Design">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
-        <!-- <link rel="canonical" href="<?= $requesMet.'://'.$_SERVER['HTTP_HOST'].'/' ?>"> -->
+        <link rel="canonical" href="<?= $requesMet.'://'.$_SERVER['HTTP_HOST'].'/'.$_SERVER["REQUEST_URI"] ?>">
         <meta name="robots" content="index, follow">
 
         <link href="https://unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
